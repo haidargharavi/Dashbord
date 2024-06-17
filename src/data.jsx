@@ -168,4 +168,31 @@ let userRows = [
     },
 ]
 
-export {xAxisData,newMembers,TransActions,userRows}
+let products = [
+    {
+        id: 1,
+        title: 'Asus',
+        avatar: 'images/p-1.jfif',
+        price: 890
+    },
+    {
+        id: 2,
+        title: 'Acer',
+        avatar: 'images/p-2.jfif',
+        price: 452
+    },
+    {
+        id: 3,
+        title: 'HP',
+        avatar: 'images/p-3.jfif',
+        price: 300
+    },
+    {
+        id: 4,
+        title: 'Dell',
+        avatar: 'images/p-4.jfif',
+        price: 250
+    },
+]
+
+export {xAxisData,newMembers,TransActions,userRows,products}
