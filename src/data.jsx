@@ -195,4 +195,20 @@ let products = [
     },
 ]
 
-export {xAxisData,newMembers,TransActions,userRows,products}
+const productsData = [
+   
+    {
+        name : 'Jan',
+        sales : 4_000
+    },
+    {
+        name : 'Feb',
+        sales : 3_000
+    },
+    {
+        name : 'Mar',
+        sales : 5_000
+    },
+] 
+
+export {xAxisData,newMembers,TransActions,userRows,products,productsData}

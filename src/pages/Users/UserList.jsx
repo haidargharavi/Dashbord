@@ -4,7 +4,6 @@ import { DataGrid } from '@mui/x-data-grid';
 import './UserList.css'
 import { Link } from 'react-router-dom';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
-import { PartyMode } from '@mui/icons-material';
 
 export default function UserList() {
 

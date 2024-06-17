@@ -54,7 +54,7 @@ export default function Productss() {
       renderCell: (params) => {
         return (
           <div className="actionUserContainer">
-            <Link to={`/products/${params.row.id}`} className='link'>
+            <Link to={`/product/${params.row.id}`} className='link'>
               <button className='UserListEdit'>Edit</button>
             </Link>
             <DeleteOutlineIcon
